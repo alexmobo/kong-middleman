@@ -1,4 +1,4 @@
-FROM kong:0.12
+FROM kong:0.13
 LABEL maintainer="Javier Moure"
 
 RUN mkdir -p /usr/local/kong/plugins
