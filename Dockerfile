@@ -1,5 +1,5 @@
 FROM kong:0.13
-LABEL maintainer="Javier Moure"
+LABEL maintainer="Alex Moreno"
 
 RUN mkdir -p /usr/local/kong/plugins
 COPY plugins /usr/local/kong/plugins
